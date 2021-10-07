@@ -1,0 +1,85 @@
+.profile-container{
+ margin: 1.2em 1.7em;
+}
+
+.user-info{
+ text-align: center;
+}
+
+.user-about{
+ margin: 1em 0;
+}
+
+.user-running-info{
+ margin-bottom: 1.2em;
+}
+
+.user-about,
+.user-running-info,
+.user-info
+{
+ border-radius: 7px;
+ border: 1px solid rgb(250, 201, 161);
+ background-color: rgb(252, 243, 236);
+ padding: 1.5em;
+}
+
+.user-image{
+ margin-bottom: 0.5em;
+}
+
+.user-img{
+ max-width: 100%;
+}
+
+.user-contact-info{
+ margin-top: 1.7em;
+}
+
+.user-text{
+ white-space: pre-wrap; /* CSS3 */    
+ white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+ white-space: -pre-wrap; /* Opera 4-6 */    
+ white-space: -o-pre-wrap; /* Opera 7 */    
+ word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+@media (min-width: 650px) { 
+ .profile-container{
+     display: flex;
+     margin: 1.5em 0;
+     width: 100%;
+     justify-content: space-around;
+ }
+
+ .user-info{
+     width: 20%;
+     text-align: left;
+ }
+
+ .user-about{
+     margin: 0 0 1.3em 0;
+ }
+
+ .user-about,
+ .user-running-info,
+ .user-info
+ {
+     border-radius: 7px;
+     border: 1px solid rgb(250, 201, 161);
+     background-color: rgb(248, 233, 221);
+     padding: 1.5em;
+ }
+
+ .user-description{
+     width: 77%;
+ }
+ .user-img{
+     max-width: 100%;
+     display: block;
+     margin: 0 auto;
+ }
+ .user-contact-info{
+     margin: 0;
+ }
+}
